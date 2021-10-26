@@ -1,0 +1,140 @@
+@prefix : <https://w3id.org/farm-stack/> .
+@prefix fst: <https://w3id.org/farm-stack/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <https://w3id.org/farm-stack/> .
+
+<https://w3id.org/farm-stack/> rdf:type owl:Ontology .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  https://w3id.org/farm-stack/videoScreened
+fst:videoScreened rdf:type owl:ObjectProperty ;
+                  rdfs:comment "The video screened"@en ;
+                  rdfs:label "video screened"@en .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  https://w3id.org/farm-stack/habitat
+fst:habitat rdf:type owl:DatatypeProperty ;
+            rdfs:comment "The habitat at a location"@en ;
+            rdfs:label "habitat"@en .
+
+
+###  https://w3id.org/farm-stack/response
+fst:response rdf:type owl:DatatypeProperty .
+
+
+###  https://w3id.org/farm-stack/responseRequired
+fst:responseRequired rdf:type owl:DatatypeProperty .
+
+
+###  https://w3id.org/farm-stack/sector
+fst:sector rdf:type owl:DatatypeProperty .
+
+
+###  https://w3id.org/farm-stack/soilType
+fst:soilType rdf:type owl:DatatypeProperty ;
+             rdfs:comment "The type of soil at the location" ;
+             rdfs:label "soil type"@en .
+
+
+###  https://w3id.org/farm-stack/subSector
+fst:subSector rdf:type owl:DatatypeProperty .
+
+
+###  https://w3id.org/farm-stack/subTopic
+fst:subTopic rdf:type owl:DatatypeProperty .
+
+
+###  https://w3id.org/farm-stack/village
+fst:village rdf:type owl:DatatypeProperty ;
+            rdfs:comment "A clustered human settlement or community, usually smaller than a town (en)"@en ;
+            rdfs:label "village"@en ;
+            rdfs:seeAlso "https://dbpedia.org/ontology/Village"@en .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  https://w3id.org/farm-stack/AdvisoryContent
+fst:AdvisoryContent rdf:type owl:Class ;
+                    rdfs:comment "The advisory content sent out for a group"^^xsd:string ;
+                    rdfs:label "Advisory content"@en .
+
+
+###  https://w3id.org/farm-stack/Agroecology
+fst:Agroecology rdf:type owl:Class ;
+                rdfs:comment "The agroecology for a location"^^xsd:string ;
+                rdfs:label "Agroecology"@en .
+
+
+###  https://w3id.org/farm-stack/Animator
+fst:Animator rdf:type owl:Class ;
+             rdfs:comment "Extension worker/frontline worker/development agents/advisor or staff working with Ministry who advise farmers"^^xsd:string ;
+             rdfs:label "Animator"@en .
+
+
+###  https://w3id.org/farm-stack/BenefitCategory
+fst:BenefitCategory rdf:type owl:Class .
+
+
+###  https://w3id.org/farm-stack/CropYieldForNitrogenApplication
+fst:CropYieldForNitrogenApplication rdf:type owl:Class .
+
+
+###  https://w3id.org/farm-stack/CropYieldForPhosphorusApplication
+fst:CropYieldForPhosphorusApplication rdf:type owl:Class .
+
+
+###  https://w3id.org/farm-stack/CropYieldForPottasiumApplication
+fst:CropYieldForPotassiumApplication rdf:type owl:Class .
+
+
+###  https://w3id.org/farm-stack/CropYieldForSulphurApplication
+fst:CropYieldForSulphurApplication rdf:type owl:Class .
+
+
+###  https://w3id.org/farm-stack/DevelopmentGroup
+fst:DevelopmentGroup rdf:type owl:Class ;
+                     rdfs:comment "The development group for which the advisor content metadata is generated"^^xsd:string ;
+                     rdfs:label "Development group"@en .
+
+
+###  https://w3id.org/farm-stack/Partner
+fst:Partner rdf:type owl:Class .
+
+
+###  https://w3id.org/farm-stack/PottasiumConcentration
+fst:PotassiumConcentration rdf:type owl:Class .
+
+
+###  https://w3id.org/farm-stack/RepresentativePoint
+fst:RepresentativePoint rdf:type owl:Class ;
+                        rdfs:comment "The representative point for a location"@en ;
+                        rdfs:label "Representative point"@en .
+
+
+###  https://w3id.org/farm-stack/SulphurConcentration
+fst:SulphurConcentration rdf:type owl:Class .
+
+
+###  https://w3id.org/farm-stack/Trainer
+fst:Trainer rdf:type owl:Class .
+
+
+###  https://w3id.org/farm-stack/VideoScreening
+fst:VideoScreening rdf:type owl:Class ;
+                   rdfs:comment "The screening event of a video for the development group."@en ;
+                   rdfs:label "Video Screening"@en .
+
+

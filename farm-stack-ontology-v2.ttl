@@ -1,0 +1,174 @@
+@prefix : <https://w3id.org/farm-stack/> .
+@prefix fst: <https://w3id.org/farm-stack/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <https://w3id.org/farm-stack/> .
+
+<https://w3id.org/farm-stack/> rdf:type owl:Ontology .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  https://w3id.org/farm-stack/hasCationExchange
+fst:hasCationExchange rdf:type owl:ObjectProperty .
+
+
+###  https://w3id.org/farm-stack/hasLocation
+fst:hasLocation rdf:type owl:ObjectProperty .
+
+
+###  https://w3id.org/farm-stack/hasOrganicCarbon
+fst:hasOrganicCarbon rdf:type owl:ObjectProperty .
+
+
+###  https://w3id.org/farm-stack/hasParentCategory
+fst:hasParentCategory rdf:type owl:ObjectProperty .
+
+
+###  https://w3id.org/farm-stack/hasPartner
+fst:hasPartner rdf:type owl:ObjectProperty .
+
+
+###  https://w3id.org/farm-stack/hasSoilAcidity
+fst:hasSoilAcidity rdf:type owl:ObjectProperty .
+
+
+###  https://w3id.org/farm-stack/hasVerificationStatus
+fst:hasVerificationStatus rdf:type owl:ObjectProperty .
+
+
+###  https://w3id.org/farm-stack/hasVideo
+fst:hasVideo rdf:type owl:ObjectProperty .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  https://w3id.org/farm-stack/adoptPractice
+fst:adoptPractice rdf:type owl:DatatypeProperty .
+
+
+###  https://w3id.org/farm-stack/agroecologyZone
+fst:agroecologyZone rdf:type owl:DatatypeProperty .
+
+
+###  https://w3id.org/farm-stack/cessationDate
+fst:cessationDate rdf:type owl:DatatypeProperty .
+
+
+###  https://w3id.org/farm-stack/clayPercentage
+fst:clayPercentage rdf:type owl:DatatypeProperty .
+
+
+###  https://w3id.org/farm-stack/dateOfAdoption
+fst:dateOfAdoption rdf:type owl:DatatypeProperty .
+
+
+###  https://w3id.org/farm-stack/dateOfVerification
+fst:dateOfVerification rdf:type owl:DatatypeProperty .
+
+
+###  https://w3id.org/farm-stack/developmentGroupName
+fst:developmentGroupName rdf:type owl:DatatypeProperty .
+
+
+###  https://w3id.org/farm-stack/earlyPdateLower
+fst:earlyPdateLower rdf:type owl:DatatypeProperty .
+
+
+###  https://w3id.org/farm-stack/earlyPdateUpper
+fst:earlyPdateUpper rdf:type owl:DatatypeProperty .
+
+
+###  https://w3id.org/farm-stack/elevation
+fst:elevation rdf:type owl:DatatypeProperty .
+
+
+###  https://w3id.org/farm-stack/gotte
+fst:gotte rdf:type owl:DatatypeProperty .
+
+
+###  https://w3id.org/farm-stack/kebele
+fst:kebele rdf:type owl:DatatypeProperty .
+
+
+###  https://w3id.org/farm-stack/latePdateLower
+fst:latePdateLower rdf:type owl:DatatypeProperty .
+
+
+###  https://w3id.org/farm-stack/latePdateUpper
+fst:latePdateUpper rdf:type owl:DatatypeProperty .
+
+
+###  https://w3id.org/farm-stack/latitude
+fst:latitude rdf:type owl:DatatypeProperty .
+
+
+###  https://w3id.org/farm-stack/longitude
+fst:longitude rdf:type owl:DatatypeProperty .
+
+
+###  https://w3id.org/farm-stack/nonNegotioableCheck
+fst:nonNegotiableCheck rdf:type owl:DatatypeProperty .
+
+
+###  https://w3id.org/farm-stack/onsetDate
+fst:onsetDate rdf:type owl:DatatypeProperty .
+
+
+###  https://w3id.org/farm-stack/pdateLower
+fst:pdateLower rdf:type owl:DatatypeProperty .
+
+
+###  https://w3id.org/farm-stack/pdateUpper
+fst:pdateUpper rdf:type owl:DatatypeProperty .
+
+
+###  https://w3id.org/farm-stack/region
+fst:region rdf:type owl:DatatypeProperty .
+
+
+###  https://w3id.org/farm-stack/siltPercentage
+fst:siltPercentage rdf:type owl:DatatypeProperty .
+
+
+###  https://w3id.org/farm-stack/soilType
+fst:soilType rdf:type owl:DatatypeProperty .
+
+
+###  https://w3id.org/farm-stack/woreda
+fst:woreda rdf:type owl:DatatypeProperty .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  https://w3id.org/farm-stack/DevelopmentGroupDetailsEthiopia
+fst:DevelopmentGroupDetailsEthiopia rdf:type owl:Class .
+
+
+###  https://w3id.org/farm-stack/ExtensionFarmAdoption
+fst:ExtensionFarmAdoption rdf:type owl:Class .
+
+
+###  https://w3id.org/farm-stack/FarmStackSoilGrid
+fst:FarmStackSoilGrid rdf:type owl:Class .
+
+
+###  https://w3id.org/farm-stack/FarmStackVerificationStatus
+fst:FarmStackVerificationStatus rdf:type owl:Class .
+
+
+###  https://w3id.org/farm-stack/Location
+fst:Location rdf:type owl:Class .
+
+
+###  https://w3id.org/farm-stack/RecommendationsFertiliserClimate
+fst:RecommendationsFertiliserClimate rdf:type owl:Class .
+
